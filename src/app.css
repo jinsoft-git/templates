@@ -1,0 +1,129 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  @font-face {
+    font-family: 'Noto-Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url('/src/lib/assets/fonts/NotoSansKR-ExtraLight.ttf') format('trueType');
+  }
+
+  @font-face {
+    font-family: 'Noto-Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('/src/lib/assets/fonts/NotoSansKR-Light.ttf') format('trueType');
+  }
+
+  @font-face {
+    font-family: 'Noto-Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/src/lib/assets/fonts/NotoSansKR-Regular.ttf') format('trueType');
+  }
+
+  @font-face {
+    font-family: 'Noto-Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('/src/lib/assets/fonts/NotoSansKR-Medium.ttf') format('trueType');
+  }
+
+  @font-face {
+    font-family: 'Noto-Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/src/lib/assets/fonts/NotoSansKR-SemiBold.ttf') format('trueType');
+  }
+
+  @font-face {
+    font-family: 'Noto-Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/src/lib/assets/fonts/NotoSansKR-Bold.ttf') format('trueType');
+  }
+
+  @font-face {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/src/lib/assets/fonts/Anton-Regular.ttf') format('trueType');
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('/src/lib/assets/fonts/Roboto-Light.ttf') format('trueType');
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/src/lib/assets/fonts/Roboto-Medium.ttf') format('trueType');
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/src/lib/assets/fonts/Roboto-Bold.ttf') format('trueType');
+  }
+
+  h1 {
+    font-size: 80px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+  }
+
+  h3 {
+    font-size: 51px;
+    font-weight: 300;
+    line-height: 62px;
+  }
+
+  h4 {
+    font-size: 41px;
+    font-weight: 700;
+  }
+
+  h5 {
+    font-size: 33px;
+    font-weight: 700;
+  }
+
+  h6 {
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply max-w-screen-xl mx-auto px-4;
+  }
+}

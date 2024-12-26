@@ -61,7 +61,7 @@
 	];
 </script>
 
-<section class="wrapper flex gap-4 justify-between py-14 border-b-label25 border-b">
+<section class="wrapper flex flex-col md:flex-row gap-4 justify-between py-14 border-b-label25 border-b">
 	<div class="flex flex-col justify-center items-center flex-1 gap-4">
 		<div class="capitalize text-center text-4xl font-bold">our new dish</div>
 		<div class="capitalize text-center text-3xl">soy chicken</div>
@@ -69,7 +69,7 @@
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sint, nulla necessitatibus a
 			aspernatur fugiat nemo soluta. Ipsam beatae blanditiis eos sequi modi minus
 		</p>
-		<a href="/" class="bg-primary w-fit px-4 py-2 rounded-lg drop-shadow-lg">
+		<a href="/templates/one/menu" class="bg-primary w-fit px-4 py-2 rounded-lg drop-shadow-lg">
 			<div class="text-white capitalize text-lg">learn more</div>
 		</a>
 	</div>
@@ -101,7 +101,7 @@
 
 <section class="wrapper flex flex-col py-14 border-b border-b-label25 gap-4">
 	<SectionTitle title="Address" />
-	<div class="flex gap-16 items-center">
+	<div class="flex flex-col md:flex-row gap-16 items-center">
 		<img
 			src={Map}
 			alt="map"
